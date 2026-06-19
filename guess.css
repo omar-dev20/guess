@@ -252,6 +252,9 @@ button:hover:not(button[id="theme-toggle"]) {
   margin: 10px auto;
   gap: 15px;
 }
+.control > *{
+  margin: 7.5px;
+}
 @media (max-width: 767px) {
   .control {
     flex-direction: column;
@@ -385,6 +388,7 @@ button:disabled {
     width: 290px;
     display: flex;
     align-items: center;
+    margin-block: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -483,6 +487,7 @@ button:disabled {
   outline: none;
   align-items: center;
   margin-bottom: 10px;
+  margin-inline: 5px;
   font-weight: bold;
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -511,6 +516,9 @@ button:disabled {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
+  .input > div input{
+    margin: 5px;
+  }
 }
 input:focus {
   box-shadow: var(--box-shadow);
@@ -526,6 +534,9 @@ input:focus {
 
   gap: 10px;
   margin-bottom: 20px;
+}
+.inputs > *{
+  margin-block: 5px;
 }
 @media (max-width: 767px) {
   .inputs {
