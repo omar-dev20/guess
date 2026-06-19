@@ -370,11 +370,10 @@ button:disabled {
     background-color: var(--background-color);
     padding: 10px;
     border-radius: 5px;
-  margin:10px 0;
+  margin:5px 0;
     width: 290px;
     display: flex;
     align-items: center;
-    margin-block: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
