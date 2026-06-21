@@ -235,6 +235,7 @@ button:hover:not(button[id="theme-toggle"]) {
 }
 .control {
   display: flex;
+  postion:
   justify-content: center;
   align-items: center;
   max-width: 500px;
@@ -529,9 +530,14 @@ input:focus {
   border-radius: 8px;
   padding: 15px;
   margin: 7px auto;
-  max-width: 500px;
+   width: 462px;
   text-align: center;
   box-shadow: var(--box-shadow);
+}
+@media (max-width: 767px){
+  .info-about{
+    width: 280px;
+  }
 }
 #hint-text {
     color: var(--color);
