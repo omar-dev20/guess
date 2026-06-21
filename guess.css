@@ -235,7 +235,6 @@ button:hover:not(button[id="theme-toggle"]) {
 }
 .control {
   display: flex;
-  postion:
   justify-content: center;
   align-items: center;
   max-width: 500px;
