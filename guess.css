@@ -433,8 +433,7 @@ button:disabled {
 }
 @media (max-width: 767px) {
   .input {
-     width: 55%;
-    margin: auto;
+    margin-left: 20px;
   }
 }
 #easy {
@@ -493,9 +492,8 @@ button:disabled {
 }
 @media (max-width: 767px) {
   .input > div {
-      display: grid;
-    grid-template-columns: repeat(3, minmax(50px, 1fr));
-     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
   .input > div input{
