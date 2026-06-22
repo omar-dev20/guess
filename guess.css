@@ -694,6 +694,14 @@ modal input{
     justify-content: space-between;
     text-wrap: nowrap;
 }
+@media (max-width: 767px) {
+  .check-hint {
+    flex-direction: column;
+    width:90%;
+}
+  .hint{
+    margin: 10px;
+}
 footer {
   text-align: center;
   padding: 20px;
