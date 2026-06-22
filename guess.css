@@ -267,13 +267,20 @@ button:disabled {
   opacity: 0.4;
   cursor: no-drop;
 }
-.check {
-  flex: 1;
+.check {   
   background-color: var(--primary);
+    width: 100p;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px 37px;
+    border-radius: 5px;
 }
 .hint {
   background-color: var(--secondary);
-  width: fit-content;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .play {
@@ -684,6 +691,8 @@ modal input{
     margin-left: 136px;
     display: flex;
     width: 280px;
+    justify-content: space-between;
+    text-wrap: nowrap;
 }
 footer {
   text-align: center;
