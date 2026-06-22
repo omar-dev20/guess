@@ -692,7 +692,8 @@ modal input{
     margin-left: 127px;
     display: flex;
     width: 480px;
-    justify-content: space-between;
+  justify-content: center;
+  margin-top:30px; 
     text-wrap: nowrap;
 }
 @media (max-width: 767px) {
