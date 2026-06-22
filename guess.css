@@ -209,7 +209,7 @@ button:hover:not(button[id="theme-toggle"]) {
 
 .guess-game {
   text-align: center;
-  margin: 60px auto;
+margin: 35px auto;
   padding: 15px;
   display: flex;
   align-items: flex-start;
