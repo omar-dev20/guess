@@ -679,6 +679,12 @@ input:focus {
 modal input{
         background: transparent;
 }
+
+.check-hint {
+    margin-left: 136px;
+    display: flex;
+    width: 280px;
+}
 footer {
   text-align: center;
   padding: 20px;
