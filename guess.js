@@ -1005,7 +1005,7 @@ function createWinPop() {
     }
         submit.addEventListener("click", function () {
             if (userInput.value.trim() !== "") {
-                saveUser(userInput.value.trim,counterIndex);
+                saveUser(userInput.value.trim(),counterIndex);
             }
 
     });
