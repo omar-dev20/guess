@@ -691,7 +691,7 @@ modal input{
 .check-hint {
     margin-left: 127px;
     display: flex;
-    width: 410px;
+    width: 500px;
     justify-content: space-between;
     text-wrap: nowrap;
 }
