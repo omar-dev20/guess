@@ -1004,10 +1004,9 @@ function createWinPop() {
 
     }
         submit.addEventListener("click", function () {
-            if (userInput.value.trim() !== "") {
-                saveUser(userInput.value,counterIndex);
-            }
-
+if (userInput?.value?.trim() !== "") {
+    saveUser(userInput.value, counterIndex);
+}
     });
     overlay.addEventListener('click', removeWin);
     close.addEventListener('click', removeWin);
