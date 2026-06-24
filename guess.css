@@ -209,7 +209,7 @@ button:hover:not(button[id="theme-toggle"]) {
 
 .guess-game {
   text-align: center;
-margin: 35px auto;
+  margin: 20px auto;
   padding: 15px;
   display: flex;
   align-items: flex-start;
@@ -233,21 +233,14 @@ margin: 35px auto;
     inline-size: 1200px;
   }
 }
-  .control {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 500px;
-      margin: 30px auto;
-      gap: 10px;
-    .check {
-        background-color: var(--primary-color);
-        flex: 1;
-      }
-   .hint {
-        background-color:var(--secondary);
-        width: fit-content;
-      }
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 10px auto;
+  gap: 15px;
+}
 .control > *{
   margin: 7.5px;
 }
@@ -281,12 +274,17 @@ button:disabled {
     padding: 10px 37px;
     border-radius: 5px;
 }
-
+.hint {
+  background-color: var(--secondary);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 .play {
   position: absolute;
   top: 50%;
-  
   left: 25%;
   transform: translate(-50%, -50%);
   backdrop-filter: blur(10px);
@@ -688,7 +686,19 @@ modal input{
         background: transparent;
 }
 
+.check-hint {
+    margin-left: 127px;
+    display: flex;
+    width: 311px;
+    justify-content: space-between;
+    text-wrap: nowrap;
+}
 @media (max-width: 767px) {
+  .check-hint {
+    flex-direction: column;
+   margin:0;
+    width:90%;
+}
   .hint{
     margin: 10px;
 }
