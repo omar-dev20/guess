@@ -778,7 +778,7 @@ modal input {
 
 @media (max-width: 767px) {
   .check-hint {
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     max-width: 280px;
     margin: 10px auto;
