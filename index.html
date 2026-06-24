@@ -6,92 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>guess the word</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
-      rel="stylesheet"
-      />
-      <link rel="stylesheet" href="normalize.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="normalize.css"/>
     <link rel="shortcut icon" href="problem.png" type="image/x-icon">
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
     <meta name="description" content="Word guessing game where players try to guess a hidden word by entering their guesses and receiving feedback on the correctness of their letters and their positions.">
     <meta name="author" content="Omar Soliman">
     <meta proprtey="og:title" content="guess the word">
-    <meta proprtey="og:url"content="C:\games\html\html\guess\guess.html">
-    <meta proprtey="og:image"content="problem.png">
+    <meta proprtey="og:url" content="C:\games\html\html\guess\guess.html">
+    <meta proprtey="og:image" content="problem.png">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en-eg">
     <meta property="og:site-name" content="guess the word">
   </head>
-    <body >
+  <body>
     <header>
-      <div class="container ">
+      <div class="container">
         <p class="load-hidden">guess the word</p>
-<button id="theme-toggle">
-    <i class="fa-solid fa-sun"></i>
-</button>
+        <button id="theme-toggle">
+          <i class="fa-solid fa-sun"></i>
+        </button>
       </div>
     </header>
 
-      <div class="guess-game">
-        <div class="game-area ">
-          <div class="counter"><span class="inputs-container"></span></div>
-          <div class="info-about load-hidden">
-    <span id="hint-text"> information about them appeared here.</span>
-          </div>
-          <div class="input load-hidden"></div>
-<div class="check-hint">
-        <button class="check">Check Word</button>
-        <button class="hint">2 Hints</button>
-    </div>
-
-    <div class="control">
-      <div class="play">
-        <h2 class="load-hidden">play</h2>
-        <button id="timer" class="btn load-hidden"><i class="fa-solid fa-hourglass-start"></i> timer</button>
-        <button id="no-timer" class="btn load-hidden">no timer</button>
-      </div>
-    </div>
-  </div>
+    <div class="guess-game">
+      <div class="game-area">
+        <div class="counter"><span class="inputs-container"></span></div>
+        <div class="info-about load-hidden">
+          <span id="hint-text"> information about them appeared here.</span>
         </div>
-        <div class="key-color load-hidden">
-          <h2>Key Color</h2>
-          <div class="color">
-            <div class="in-place key "></div>
-            <div class="key-text">letter is right and in place</div>
+        
+        <div class="input load-hidden"></div>
+        
+        <div class="check-hint">
+          <button class="check">Check Word</button>
+          <button class="hint">  Hints</button>
+        </div>
 
+        <div class="control">
+          <div class="play">
+            <h2 class="load-hidden">play</h2>
+            <button id="timer" class="btn load-hidden"><i class="fa-solid fa-hourglass-start"></i> timer</button>
+            <button id="no-timer" class="btn load-hidden">no timer</button>
           </div>
-          <div class="color">
-            <div class="key not-place"></div>
-            <div class="key-text">letter is right but not in place</div>
-          </div>
-          <div class="color">
-            <div class="key co-wrong"></div>
-            <div class="key-text">letter is wrong</div>
-          </div>
-                  <div class="game-info">
+        </div>
+      </div>
+
+      <div class="key-color load-hidden">
+        <h2>Key Color</h2>
+        <div class="color">
+          <div class="in-place key"></div>
+          <div class="key-text">letter is right and in place</div>
+        </div>
+        <div class="color">
+          <div class="key not-place"></div>
+          <div class="key-text">letter is right but not in place</div>
+        </div>
+        <div class="color">
+          <div class="key co-wrong"></div>
+          <div class="key-text">letter is wrong</div>
+        </div>
+        <div class="game-info">
           <button class="btn-info">
             How to play<i class="fa-solid fa-info-circle"></i>
           </button>
         </div>
         <div class="game-info">
           <button class="btn-info btn-leader">
-           view the leaderboard  <i class="fa-solid fa-crown"></i>
+            view the leaderboard <i class="fa-solid fa-crown"></i>
           </button>
         </div>
         <div class="game-info">
           <button class="btn-info btn-add">
-           do Yoy want to add your own word? 
+            do Yoy want to add your own word? 
           </button>
         </div>
-        </div>
       </div>
-    </body>
+    </div>
     <footer></footer>
     <script defer src="guess.js"></script>
+  </body>
 </html>
