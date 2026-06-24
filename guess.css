@@ -233,7 +233,7 @@ margin: 35px auto;
     inline-size: 1200px;
   }
 }
-    .control {
+  .control {
       display: flex;
       justify-content: center;
       align-items: center;
